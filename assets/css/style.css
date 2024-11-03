@@ -1,0 +1,61 @@
+:root {
+  --alabaster: #dedfd5ff;
+  --tickle-me-pink: #fc87a3ff;
+  --hookers-green: #638475ff;
+  --mountbatten-pink: #a288a6;
+  --night: #121212ff;
+  --linen: #F1E6DD;
+}
+
+body {
+  background: var(--alabaster);
+  color: var(--night);
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.bg-input {
+  background-color: var(--linen);
+  box-shadow: 4px 6px var(--night);
+  width: 65% !important;
+}
+
+.form-control {
+  padding: 0;
+}
+
+input:focus {
+  box-shadow: none !important;
+}
+
+.input-group .btn {
+  background-color: var(--hookers-green);
+  border: 2px solid var(--night);
+}
+
+.highlight {
+  background: var(--tickle-me-pink);
+  border: 3px solid var(--night);
+  border-radius: 0.375rem;
+  box-shadow: 4px 6px var(--night);
+  padding: 0 18px;
+}
+
+.card--custom {
+  background: var(--linen);
+  border: 2px solid var(--night);
+  border-radius: 0.375rem;
+  box-shadow: 4px 6px var(--night);
+  padding: 42px 36px;
+  text-align: justify;
+}
+
+.w-max {
+  max-width: 700px;
+}
+
+.btn-back {
+  background-color: var(--mountbatten-pink);
+  border: 2px solid var(--night);
+  border-radius: 0.375rem;
+}
