@@ -1,4 +1,4 @@
-# Aplicativo dos Signos do Zodíaco
+# Aplicação Web dos Signos do Zodíaco
 
 ## Descrição
 
